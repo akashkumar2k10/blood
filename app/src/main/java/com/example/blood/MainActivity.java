@@ -1,5 +1,6 @@
 package com.example.blood;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -7,9 +8,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.google.firebase.FirebaseApp;
-import com.google.firebase.auth.FirebaseAuth;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -36,7 +34,10 @@ public class MainActivity extends AppCompatActivity {
         AlreayUser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getBaseContext(),"yo!!!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(getBaseContext(),signIn.class);
+
+                startActivity(intent);
+
             }
         });
 

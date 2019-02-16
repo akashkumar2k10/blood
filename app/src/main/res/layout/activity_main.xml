@@ -7,36 +7,98 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="261dp"
-        android:layout_height="61dp"
+        android:id="@+id/textView31"
+        android:layout_width="138dp"
+        android:layout_height="41dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="48dp"
-        android:text="JIVANDEEP HEALTH SERVICES"
-        android:textColor="#00ff00"
-        android:textSize="15dp"/>
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="296dp"
+        android:text="Contact Number"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="142dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="97dp"
+        android:text="Name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="7dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="285dp"
+        android:ems="10"
+        android:hint="Ph. No."
+        android:inputType="textPhonetic" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="25dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="286dp"
+        android:text=":"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="25dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="82dp"
+        android:text=":"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="138dp"
+        android:layout_height="41dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="144dp"
-        android:text="Name" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="161dp"
+        android:text="E-Mail Address"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="142dp"
+        android:layout_height="38dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="213dp"
-        android:text="Password" />
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="234dp"
+        android:text="Passwod"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/editText"
@@ -44,24 +106,61 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="131dp"
-        android:layout_marginEnd="77dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginEnd="3dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:hint="EMAIL"/>
+        android:hint="Password"
+        android:inputType="textPassword" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="202dp"
-        android:layout_marginEnd="75dp"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="150dp"
         android:ems="10"
-        android:inputType="textPassword"
-        android:hint="Password"/>
+        android:hint="E-Mail "
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="25dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="151dp"
+        android:text=":"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="25dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="219dp"
+        android:text=":"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="27dp"
+        android:text="JIVANDEEP HEALTH SERVICES"
+        android:textColor="@color/colorAccent"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
@@ -70,30 +169,40 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="121dp"
-        android:layout_marginTop="275dp"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="340dp"
         android:text="Register" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="280dp"
-        android:layout_height="65dp"
+        android:layout_width="377dp"
+        android:layout_height="47dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="70dp"
-        android:layout_marginBottom="291dp"
-        android:text="Already a User ?"
-        android:textSize="30dp"/>
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="279dp"
+        android:text="Already a User ? CLICK HERE!!"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="273dp"
-        android:layout_height="70dp"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="75dp"
-        android:layout_marginBottom="157dp"
-        android:text="Are You From BLOOD BANK?"
-        android:textSize="25dp" />
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="236dp"
+        android:text="Are You a BLOOD BANK MANAGER?"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="385dp"
+        android:layout_height="202dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="9dp"
+        app:srcCompat="@drawable/skd" />
 
 </RelativeLayout>

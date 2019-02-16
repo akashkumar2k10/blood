@@ -13,12 +13,19 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
 
+    EditText Editname;
+    EditText EditPass;
+    Button btnSubmit;
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Editname=(EditText)findViewById(R.id.editText);
+        EditPass=(EditText)findViewById(R.id.editText2);
 
 
     }

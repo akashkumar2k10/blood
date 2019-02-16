@@ -31,6 +31,15 @@ public class MainActivity extends AppCompatActivity {
         AlreayUser=(TextView)findViewById(R.id.textView4);
         Blood_bank=(TextView)findViewById(R.id.textView5);
 
+
+        btnSubmit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String email=Editname.getText().toString();
+                Toast.makeText(getBaseContext(),email+" is Registered",Toast.LENGTH_LONG).show();
+            }
+        });
+
         AlreayUser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
